@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(45deg, #04142D, #7FABE0);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.player {
+    background: #f1f3f4;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    width: 350px;
+}
+
+.player .imgBx {
+    height: 200px;
+    position: relative;
+    width: 100%;
+}
+
+.player .imgBx img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
